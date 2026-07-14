@@ -1,0 +1,156 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #06142b;
+    color: #e6f1ff;
+font-family: 'BBBInvader';
+src: url(https://humantooth.neocities.org/fonts/BBBInvader-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;}
+        
+@font-face {                  
+font-family: 'BBBInvader';
+src: url(https://humantooth.neocities.org/fonts/BBBInvader-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+} 
+
+
+/* Typography Styling */
+h1 .science-gothic-<uniquifier>{
+    font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+
+h2 {
+    color: #7fbfff;
+    border-bottom: 2px solid #1d4f91;
+}
+
+h3 {
+    color: #a8d8ff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* Header Styling */
+header {
+    background-color: #0a2348;
+    padding: 30px;
+    text-align: center;
+    body {
+    font-family: "Orbitron", sans-serif;
+}
+}
+
+
+/* Navigation Styling */
+nav {
+    background-color: #10366b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #66ccff;
+}
+
+
+/* Main Two-Column Layout */
+.menu-container {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+
+
+/* Styled Sections */
+.left-column,
+.right-column {
+    flex: 1;
+    background-image: url("https://i.natgeofe.com/n/fd5d7181-685f-4857-b41b-27db0daad21f/07-solar-system-pia13115_orig.jpg");
+    background-size: cover;
+    background-color: #0d2d5c;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+
+/* Image Styling */
+img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Card Styling */
+.card {
+    background-color: #123b73;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+
+/* Button and Link Styling */
+.button {
+    display: inline-block;
+    background-color: #1e6ed8;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #4da3ff;
+    color: #06142b;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #041022;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #7fbfff;
+}
+
+
+/* Responsive Layout Change */
+@media (max-width: 768px) {
+
+    .menu-container {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+}
